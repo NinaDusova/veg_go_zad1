@@ -1,0 +1,78 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.image-rectangle {
+    border: 3px solid rgba(95, 83, 83, 1);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+   /* transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;*/
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  /*  position: absolute;*/
+}
+
+.image-rectangle i {
+    font-size: 15rem;
+}
+
+.box {
+    border: 3px solid rgba(199, 198, 198, 1);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    padding-left: 0.2rem;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    color: rgba(95, 83, 83, 1);
+    font-size: 1rem;
+}
+
+h3 {
+    padding-left: 0.2rem;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    font-size: 1rem;
+    cursor: text;
+    color: rgba(126, 126, 126, 1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgba(40, 170, 224, 1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(30, 130, 180, 1);
+    color: rgba(200, 200, 200, 1);
+}

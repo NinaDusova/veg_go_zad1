@@ -1,0 +1,98 @@
+.circle-container {
+    display: flex;
+    padding-left: 20%;
+   /* justify-content: center;*/
+   /* align-items: center;*/
+    gap: 2rem;
+}
+
+.circle {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgba(40, 170, 224, 1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i {
+    font-size: 8rem;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 16rem;
+    margin: 0;
+    gap: 3.2rem;
+}
+
+.date-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.4rem;
+    gap: 6.9rem;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+   /* align-items: center;*/
+    justify-content: center;
+    padding-top: 2.5rem;
+    gap: 5rem;
+}
+
+.small-circles {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+   /* padding-left: 21%;*/
+    gap: 2rem;
+    position: relative;
+}
+
+/*.small-circles::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0.5rem;
+    background-color: rgba(40, 170, 224, 1);
+  /*  height: calc(100% - 3.5rem); /* Dynamické nastavenie výšky (2rem gap plus výška pol kruhu) */
+  /*  z-index: -1;
+    left: 31.5rem;
+    transform: translateX(-50%);
+}*/
+
+.small-circle {
+    width: 7rem;
+    height: 7rem;
+    background-color: rgba(40, 170, 224, 1);
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 0.9vw;
+    font-family: 'Konkhmer Sleokchher', sans-serif;
+    font-weight: normal;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 4vw;
+    }
+}
+
+
